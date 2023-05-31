@@ -3,7 +3,7 @@ import Chart from 'chart.js/auto';
 import './web1.css'
 
 const ChartComponent = () => {
-  const chartRef = useRef('');
+  const chartRef = useRef(null);
 
   useEffect(() => {
     let chartInstance = null;
